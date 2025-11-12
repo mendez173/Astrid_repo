@@ -1,0 +1,47 @@
+.seccion {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1c1c1c; 
+  color: white;
+  
+  
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  gap: 3rem; 
+}
+
+.imagenColumna {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotoPerfil {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.textoColumna {
+  flex: 1.5; 
+  
+  
+  border-left: 2px solid white; 
+  padding-left: 3rem; 
+}
+
+.textoColumna h2 {
+
+  font-family: var(--font-dancing-script);
+  font-size: 4rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.textoColumna p {
+  font-size: 1.1rem;
+  line-height: 1.6; 
+  margin-bottom: 1rem;
+}
