@@ -53,3 +53,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.linkProyecto {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4A4A58;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.linkProyecto:hover {
+  background-color: #6A6A78;
+  text-decoration: none;
+}

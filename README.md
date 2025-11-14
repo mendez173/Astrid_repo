@@ -1,37 +1,36 @@
-# Portafolio Personal de Astrid Reyes
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Este es el repositorio del código de mi portafolio web personal, construido con Next.js y React.
+## Getting Started
 
-El sitio web muestra mi perfil profesional, proyectos en los que he trabajado, metas a corto y largo plazo, y testimonios de colegas.
+First, run the development server:
 
-## Tecnologías Utilizadas
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-* **Next.js (React)**: Framework principal para la construcción del sitio.
-* **CSS Modules**: Para estilos encapsulados por componente.
-* **Framer Motion**: Para las animaciones de aparición al hacer scroll.
-* **Node.js**: Entorno de ejecución del proyecto.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Cómo Ejecutar este Proyecto Localmente
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/mendez173/astrid_repo.git](https://github.com/mendez173/astrid_repo.git)
-    ```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-2.  **Navegar a la carpeta del proyecto:**
-    ```bash
-    cd astrid_repo
-    ```
+## Learn More
 
-3.  **Instalar las dependencias:**
-    (Esto instala Next.js, React, Framer Motion, etc.)
-    ```bash
-    npm install
-    ```
+To learn more about Next.js, take a look at the following resources:
 
-4.  **Ejecutar el servidor de desarrollo:**
-    ```bash
-    npm run dev
-    ```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-5.  Abrir [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

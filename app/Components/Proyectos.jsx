@@ -50,6 +50,14 @@ export default function Proyectos() {
               necesidades. Estamos muy satisfechos con el resultado, demostrando 
               cómo la colaboración efectiva puede generar soluciones de alto impacto.
             </p>
+                        <a 
+              href="https://github.com/javo-zy/JamboExpo" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={styles.linkProyecto}
+            >
+              Ver el código en GitHub
+            </a>
           </div>
           <div className={styles.imagenColumna}>
             <Image
